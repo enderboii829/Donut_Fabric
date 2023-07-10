@@ -12,10 +12,14 @@ import net.sl33pypanda.donut.Donut;
 
 public class ModItems {
     public static final Item DONUT = registerItem("donut", new Item(new FabricItemSettings()));
+    public static final Item SUGAR_COOKIE = registerItem("sugar_cookie", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(DONUT);
+        entries.add(SUGAR_COOKIE);
     }
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Donut.MOD_ID, name), item);
     }
