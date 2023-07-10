@@ -18,6 +18,7 @@ public class ModItemGroups {
                 FabricItemGroup.builder().displayName(Text.translatable("itemgroup.donut"))
                         .icon(() ->new ItemStack(ModItems.DONUT)).entries((displayContext, entries) -> {
                             entries.add(ModItems.DONUT);
+                            entries.add(ModItems.SUGAR_COOKIE);
 
 
                             entries.add(Items.COOKIE);
