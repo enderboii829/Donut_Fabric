@@ -19,6 +19,7 @@ public class ModItemGroups {
                         .icon(() ->new ItemStack(ModItems.DONUT)).entries((displayContext, entries) -> {
                             entries.add(ModItems.DONUT);
                             entries.add(ModItems.SUGAR_COOKIE);
+                            entries.add(ModItems.CHRISTMAS_COOKIE);
 
 
                             entries.add(Items.COOKIE);
