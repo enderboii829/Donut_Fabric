@@ -14,7 +14,8 @@ public class ModItems {
     public static final Item DONUT = registerItem("donut", new Item(new FabricItemSettings().food(ModFoodComponents.DONUT)));
     public static final Item SUGAR_COOKIE = registerItem("sugar_cookie", new Item(new FabricItemSettings()));
 
-    public static final Item CHRISTMAS_COOKIE = registerItem("christmas_cookie", new Item(new FabricItemSettings()));
+    public static final Item CHRISTMAS_COOKIE = registerItem("christmas_cookie", new Item(new FabricItemSettings().
+            food(ModFoodComponents.CHRISTMAS_COOKIE)));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(DONUT);
