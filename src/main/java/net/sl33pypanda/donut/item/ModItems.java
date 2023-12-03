@@ -18,11 +18,14 @@ public class ModItems {
 
     public static final Item CHRISTMAS_COOKIE = registerItem("christmas_cookie", new Item(new FabricItemSettings()
             .food(ModFoodComponents.CHRISTMAS_COOKIE)));
+    public static final Item WHITE_CHOCOLATE_CHIP_COOKIE = registerItem("christmas_cookie", new Item(new FabricItemSettings()
+            .food(ModFoodComponents.CHRISTMAS_COOKIE)));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(DONUT);
         entries.add(SUGAR_COOKIE);
         entries.add(CHRISTMAS_COOKIE);
+        entries.add(WHITE_CHOCOLATE_CHIP_COOKIE);
     }
 
 

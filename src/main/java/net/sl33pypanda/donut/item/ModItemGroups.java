@@ -20,6 +20,7 @@ public class ModItemGroups {
                             entries.add(ModItems.DONUT);
                             entries.add(ModItems.SUGAR_COOKIE);
                             entries.add(ModItems.CHRISTMAS_COOKIE);
+                            entries.add(ModItems.WHITE_CHOCOLATE_CHIP_COOKIE);
 
 
                             entries.add(Items.COOKIE);
