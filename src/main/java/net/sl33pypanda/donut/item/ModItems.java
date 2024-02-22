@@ -18,7 +18,7 @@ public class ModItems {
 
     public static final Item CHRISTMAS_COOKIE = registerItem("christmas_cookie", new Item(new FabricItemSettings()
             .food(ModFoodComponents.CHRISTMAS_COOKIE)));
-    public static final Item WHITE_CHOCOLATE_CHIP_COOKIE = registerItem("christmas_cookie", new Item(new FabricItemSettings()
+    public static final Item WHITE_CHOCOLATE_CHIP_COOKIE = registerItem("white_choco", new Item(new FabricItemSettings()
             .food(ModFoodComponents.WHITE_CHOCOLATE_CHIP_COOKIE)));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
